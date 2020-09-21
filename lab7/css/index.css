@@ -1,0 +1,41 @@
+ody {
+    font-family: Helvetica, Verdana, Arial, "san serif";
+    background-color: darkgray;
+    padding: 25px;
+    font-size: 120%;
+}
+
+div#content {
+    padding: 50px;
+    background-color: aliceblue;
+    border: solid 5px #ffd94f;
+    height: 80vh;
+
+}
+
+h1, h2, h3 {
+    font-family: "courier", monospace;
+    color: #b11919
+}
+
+p  {
+    font-family: "verdana" , monospace;
+    color: #150686
+}
+
+img {
+    padding-left: 2px
+    float: right;
+    width: 400px;
+    height: auto;
+    border: dashed 2px #150686
+}
+
+a {
+    text-decoration: none;
+    color: maroon;
+}
+a:hover {
+    text-decoration: underline;
+    text-decoration-style: wavy;
+}
