@@ -1,0 +1,61 @@
+body {
+    font-family: Helvetica, Verdana, Arial, "san serif";
+    background-color: white;
+    padding: 5px;
+    font-size: 120%;
+}
+
+div#content {
+    padding: 10px;
+    background-color: #f3faff;
+    border: solid 5px #ff8e8e;
+    height: 145vh;
+}
+
+div.info {
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+
+h1 {
+  font-family: "Helvetica";
+  font-size: 300%;
+  color: #150686;
+}
+
+div#nav {
+  font-family: "Helevetica";
+  font-size: 100%;
+}
+
+h2, h3 {
+    font-family: "Helvetica", monospace;
+    color: #ff8e8e
+}
+
+p  {
+    font-family: "Helvetica" , monospace;
+    color: #150686
+}
+
+img {
+    padding-left: 0px;
+    float: ;
+    width: 800px;
+    height: auto;
+    border: solid 5px #150686;
+}
+
+html {
+  color: #150686;
+}
+
+a {
+    text-decoration: none;
+    color: maroon;
+}
+a:hover {
+    text-decoration: underline;
+    text-decoration-style: wavy;
+}
