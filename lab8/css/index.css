@@ -9,13 +9,13 @@ div#content {
     padding: 10px;
     background-color: #f3faff;
     border: solid 5px #ff8e8e;
-    height: 145vh;
+    height: 130vh;
 }
 
 div.info {
     padding-left: 20px;
     padding-right: 20px;
-    
+    line-height: 150%;
 }
 
 h1 {
@@ -45,6 +45,11 @@ img {
     width: 800px;
     height: auto;
     border: solid 5px #150686;
+}
+
+img:hover {
+  width: 1000px;
+  height: auto;
 }
 
 html {
