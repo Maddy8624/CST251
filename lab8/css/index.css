@@ -8,7 +8,7 @@ body {
 div#content {
     padding: 10px;
     background-color: #f3faff;
-    border: solid 5px #ff8e8e;
+    border: dashed 5px #ff8e8e;
     height: 130vh;
 }
 
