@@ -1,6 +1,6 @@
 body {
   font-family: Helvetica, sans-serif;
-  font-size: 200%%
+  font-size: 120%
   color: #999999
 }
 
@@ -8,14 +8,14 @@ body {
   background-color: #D3C4BE;
   border: solid 3px #999999;
   height: 145vh;
-  padding: 100px;
+  padding: 25px;
 }
 
 h1 {
   color: white;
   font-family: Helvetica;
-  font-size: 500%;
-    letter-spacing: 8px;
+  font-size: 350%;
+  letter-spacing: 8px;
   padding-bottom: 60px;
   border-bottom: solid 3px #999999
 }
@@ -25,25 +25,30 @@ img {
   padding: 5px;
   border: solid 4px #999999;
   margin: 10px;
-  width: 500px;
+  width: 400px;
   height: auto;
 }
 
+#bigideas {
+  padding-bottom: 75px;
+  border-bottom: dotted 2px #999999;
+}
+
+#challenge {
+  padding-bottom: 75px;
+  border-bottom: dotted 2px #999999;
+}
+
+#results {
+  padding-bottom: 75px;
+  border-bottom: dotted 2px #999999;
+}
 
 h2 {
   color: white;
-  font-size: 300%;
+  font-size: 250%;
   word-spacing: 2px;
   letter-spacing: 5px;
-}
-
-#lists {
-  color: white;
-  font-size: 150%;
-  font-family: 'Josefin Slab', serif;
-  line-height: 2em;
-  word-spacing: 5px;
-  font-size: 135%;
 }
 
 p {
