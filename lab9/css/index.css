@@ -1,0 +1,49 @@
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 120%
+  color: #999999
+}
+
+#content {
+  background-color: #D3C4BE;
+  border: solid 3px #999999;
+  height: 110vh;
+  padding: 25px;
+}
+
+h1 {
+  color: white;
+  font-family: Helvetica;
+  font-size: 350%;
+  padding-bottom: 60px;
+  border-bottom: solid 3px #999999
+}
+
+img {
+  float: right;
+  padding: 5px;
+  border: solid 4px #999999;
+  margin: 10px;
+  width: 400px;
+  height: auto;
+}
+
+#bigideas {
+  padding-bottom: 75px;
+  border-bottom: dotted 2px #999999;
+}
+
+#challenge {
+  padding-bottom: 75px;
+  border-bottom: dotted 2px #999999;
+}
+
+#results {
+  padding-bottom: 75px;
+  border-bottom: dotted 2px #999999;
+}
+
+h2 {
+  color: white;
+  font-size: 200%
+}
