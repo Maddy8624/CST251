@@ -1,0 +1,44 @@
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 200%%
+  color: #999999
+}
+
+#content {
+  background-color: #D3C4BE;
+  border: solid 3px #999999;
+  height: 110vh;
+  padding: 100px;
+}
+
+h1 {
+  color: white;
+  font-family: Helvetica;
+  font-size: 500%;
+  padding-bottom: 60px;
+  border-bottom: solid 3px #999999
+}
+
+img {
+  float: right;
+  padding: 5px;
+  border: solid 4px #999999;
+  margin: 10px;
+  width: 500px;
+  height: auto;
+}
+
+
+h2 {
+  color: white;
+  font-size: 500%%;
+}
+
+#lists {
+  color: white;
+  font-size: 150%;
+}
+
+p {
+  font-size: 125%;
+}
