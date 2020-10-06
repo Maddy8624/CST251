@@ -7,7 +7,7 @@ body {
 #content {
   background-color: #D3C4BE;
   border: solid 3px #999999;
-  height: 145vh;
+  height: 200vh;
   padding: 100px;
 }
 
@@ -51,4 +51,17 @@ p {
   line-height: 2em;
   word-spacing: 5px;
   font-size: 135%;
+}
+
+#sidebar {
+  position: sticky;
+  right: 60%;
+  width: 33%;
+  min-width: 300px;
+  height: auto;
+  Font-size: 75%;
+  color: white;
+  background-color: #999999;
+  border: dotted 2px white;
+  padding: 10px;
 }
