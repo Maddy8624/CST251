@@ -7,7 +7,8 @@ body {
 #content {
   background-color: #D3C4BE;
   border: solid 3px #999999;
-  height: 245vh;
+  height: 400vh;
+  width: 150vh;
   padding: 25px;
 }
 
@@ -18,16 +19,6 @@ h1 {
   letter-spacing: 8px;
   padding-bottom: 60px;
   border-bottom: solid 3px #999999
-}
-
-img {
-  float: left;
-  padding: 5px;
-  border: solid 4px #999999;
-  margin: 10px;
-  width: 900px;
-  height: auto;
-  display: inline-block;
 }
 
 #bigideas {
@@ -69,17 +60,36 @@ p {
   font-family: 'Josefin Slab',serif;
 }
 
-#sidebar {
-  display: inline-block;
+#float {
+  width: 30%;
+  float: left;
+}
+
+#center-horz {
+  width: 30%;
+  text-align: center;
+}
+
+#center-img {
+  max-width: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+
+}
+
+#center-both {
+  max-width:150px;
+  width: 30%;
+  margin:0;
+  padding: 25px;
   position: absolute;
-  left: 63%;
-  width: 33%;
-  min-width: 300px;
-  height: auto;
-  Font-size: 75%;
-  color: white;
-  background-color: #999999;
-  border: dotted 2px white;
-  padding: 10px;
+  top: 200%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  height: 200px;
+  display: block;
 
 }
