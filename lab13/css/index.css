@@ -7,7 +7,7 @@ body {
 #content {
   background-color: #D3C4BE;
   border: solid 3px #999999;
-  height: 250vh;
+  height: 300vh;
   width: auto;
   padding: 25px;
 }
@@ -19,6 +19,12 @@ h1 {
   letter-spacing: 8px;
   padding-bottom: 60px;
   border-bottom: solid 3px #999999
+}
+
+figcaption {
+  font-family: 'Josefin Slab',serif;
+  color: black;
+  padding-bottom: 20px;
 }
 
 #bigideas {
@@ -58,6 +64,12 @@ p {
   position: sticky;
   top:0;
   font-family: 'Josefin Slab',serif;
+}
+
+#original img{
+  position: relative;
+  width:800px;
+  height:auto;
 }
 
 iframe#fake {
