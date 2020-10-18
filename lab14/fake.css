@@ -1,0 +1,55 @@
+
+
+body {
+  background-image: url("img/swedensunset.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}
+
+#paragraph {
+  font-family: Times, serif;
+  font-size: 25px;
+  color: white;
+  padding-left: 165px;
+  line-height: 40px;
+  position:relative;
+  top: -200px;
+
+}
+
+#date {
+  font-family: "Oxygen", sans-serif;
+  font-size: 190px;
+  letter-spacing: -10px;
+  width: 50%;
+  padding-left: 100px;
+  padding-top: 1px;
+  position:relative;
+}
+
+
+#menu {
+  position: sticky;
+  font-family: Times, serif;
+  font-size: 20px;
+  float:left;
+  top: 0px;
+  color: black;
+}
+
+#international {
+  position: sticky;
+    font-family: Times, serif;
+    font-size: 20px;
+    float:right;
+    top: 0px;
+    color: black;
+}
+
+#links {
+  position: relative;
+  top:0;
+  font-family: 'Josefin Slab',serif;
+}
