@@ -5,7 +5,7 @@ body {
 }
 
 #content {
-  background-color: #D3C4BE;
+  background-image: linear-gradient(#D3C4BE,#D3C4BE,#ffe8b2);
   border: solid 3px #999999;
   height: 200vh;
   padding: 100px;
@@ -17,7 +17,8 @@ h1 {
   font-size: 500%;
     letter-spacing: 8px;
   padding-bottom: 60px;
-  border-bottom: solid 3px #999999
+  border-bottom: solid 3px #999999;
+  text-shadow: 3px 3px 3px #a39ebd;
 }
 
 img {
@@ -27,6 +28,11 @@ img {
   margin: 10px;
   width: 500px;
   height: auto;
+  border-radius: 25px 25px;
+  object-fit: contain;
+  border: dotted 2px #999999;
+  transform: rotate(5deg);
+  box-shadow: 5px 5px 5px #a39ebd;
 }
 
 
@@ -35,6 +41,7 @@ h2 {
   font-size: 300%;
   word-spacing: 2px;
   letter-spacing: 5px;
+  text-shadow: 3px 3px 3px #a39ebd;
 }
 
 #lists {
