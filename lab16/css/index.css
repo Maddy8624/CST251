@@ -1,0 +1,143 @@
+html {
+  background-image: url("https://cdn.shopify.com/s/files/1/1143/5434/products/Veronica_duped_Red-w-Blue_1dbc7590-f39f-45ee-95ca-5ad91d07eae4_1600x.jpg?v=1588479499");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding:25px;
+
+}
+
+#content {
+  background-image: url("https://dev.marbledistilling.com/wp-content/uploads/2017/08/marble_bg.jpg?id=61");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: solid 3px #999999;
+  height: 200vh;
+  width: auto;
+  padding: 25px;
+}
+
+
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 120%;
+  color: #999999;
+}
+
+
+h1 {
+  color: #b52941;
+  font-family: Helvetica;
+  font-size: 350%;
+  letter-spacing: 8px;
+  padding-bottom: 60px;
+  border-bottom: solid 3px #999999;
+  text-shadow: 3px 3px 3px #999999;
+  transition-duration: .1s;
+}
+
+h1:hover {
+  color:#004370;
+}
+
+/*Adapted code from https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations */
+html {
+  animation-duration: 3s;
+  animation-name: zoom;
+}
+
+@keyframes zoom {
+  from{
+    margin-top:-25%;
+  }
+
+  to {
+    margin-top:0%;
+  }
+
+}
+
+.info {
+  text-shadow: 3px 3px 3px #999999;
+  padding-bottom: 75px;
+  column-count: 2;
+
+}
+
+#rose img {
+  width:300px;
+  height:auto;
+  filter: grayscale(75%) blur(.5px);
+  transition-duration: .5s;
+}
+
+#rose img:hover {
+  width: 600px;
+  filter: none;
+}
+
+p {
+  font-family: 'Josefin Slab', serif;
+  line-height: 2em;
+  word-spacing: 5px;
+  font-size: 135%;
+  display: inline-block;
+  text-shadow: none;
+}
+
+p {
+  /*Got this code from https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations */
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+#bigideas {
+  padding-top: 10px;
+  padding-bottom: 75px;
+  border-bottom: dotted 2px #999999;
+
+}
+
+#challenge {
+  padding-bottom: 75px;
+  border-bottom: dotted 2px #999999;
+}
+
+#results {
+  padding-bottom: 75px;
+  border-bottom: dotted 2px #999999;
+}
+
+h2 {
+  color: #004370;
+  font-size: 250%;
+  word-spacing: 2px;
+  letter-spacing: 5px;
+  display: inline-block;
+  width: 50%;
+  transition-duration: .1s;
+}
+
+h2:hover {
+  color:#b52941;
+}
+
+
+#links {
+  position: sticky;
+  top:0;
+  font-family: 'Josefin Slab',serif;
+}

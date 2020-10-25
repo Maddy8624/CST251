@@ -60,6 +60,40 @@ p {
   font-size: 135%;
 }
 
+p{
+ /*Got this code from https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations */
+ animation-duration: 3s;
+ animation-name: slidein;
+}
+
+@keyframes slidein {
+ from {
+   margin-left: 100%;
+   width: 300%;
+ }
+
+ to {
+   margin-left: 0%;
+   width: 100%;
+ }
+}
+
+html {
+  animation-duration: 3s;
+  animation-name: zoom;
+}
+
+@keyframes zoom {
+  from{
+    margin-top:-25%;
+  }
+
+  to {
+    margin-top:0%;
+  }
+
+}
+
 #sidebar {
   position: sticky;
   right: 60%;

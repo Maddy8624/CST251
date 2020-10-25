@@ -9,7 +9,7 @@ body {
   background-image: linear-gradient(#D3C4BE,#ffe8b2);
   border: solid 3px #999999;
   height: 200vh;
-  width: 150vh;
+  width: auto;
   padding: 25px;
 }
 
