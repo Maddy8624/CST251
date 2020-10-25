@@ -1,3 +1,11 @@
+html {
+  background-image: url("https://cdn.shopify.com/s/files/1/1143/5434/products/Veronica_duped_Red-w-Blue_1dbc7590-f39f-45ee-95ca-5ad91d07eae4_1600x.jpg?v=1588479499");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding:25px;
+}
+
 body {
   font-family: Helvetica, sans-serif;
   font-size: 200%%
@@ -5,7 +13,7 @@ body {
 }
 
 #content {
-  background-image: linear-gradient(#D3C4BE,#D3C4BE,#ffe8b2);
+  background-image: linear-gradient(#D3C4BE,white, #b52941);
   border: solid 3px #999999;
   height: 200vh;
   padding: 100px;
@@ -18,7 +26,7 @@ h1 {
     letter-spacing: 8px;
   padding-bottom: 60px;
   border-bottom: solid 3px #999999;
-  text-shadow: 3px 3px 3px #a39ebd;
+  text-shadow: 3px 3px 3px #004370;
 }
 
 img {
@@ -32,20 +40,20 @@ img {
   object-fit: contain;
   border: dotted 2px #999999;
   transform: rotate(5deg);
-  box-shadow: 5px 5px 5px #a39ebd;
+  box-shadow: 5px 5px 5px #004370;
 }
 
 
 h2 {
-  color: white;
+  color: #004370;
   font-size: 300%;
   word-spacing: 2px;
   letter-spacing: 5px;
-  text-shadow: 3px 3px 3px #a39ebd;
+  text-shadow: 3px 3px 3px white;
 }
 
 #lists {
-  color: white;
+  color: #004370;
   font-size: 150%;
   font-family: 'Josefin Slab', serif;
   line-height: 2em;
@@ -101,8 +109,8 @@ html {
   min-width: 300px;
   height: auto;
   Font-size: 75%;
-  color: white;
-  background-color: #999999;
-  border: dotted 2px white;
+  color: #004370;
+  background-color: white;
+  border: dotted 2px #004370;
   padding: 10px;
 }
