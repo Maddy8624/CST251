@@ -7,23 +7,45 @@ body {
 #content {
   background-color: #D3C4BE;
   border: solid 3px #999999;
-  height: 300vh;
+  height: 350vh;
   width: auto;
-  padding: 25px;
+
 }
 
-.flex{
+.flex1{
   display:flex;
-  
+  justify-content: flex-end;
 }
+
+.flex2{
+  display:flex;
+  justify-content: flex-end;
+}
+
+.flex3 img{
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.flex4{
+  display:flex;
+  justify-content: flex-end;
+}
+
+.flex5{
+  display:flex;
+  justify-content: center;
+}
+
 
 header {
   color: white;
   font-family: Helvetica;
   font-size: 350%;
   width:800px;
+  height;auto;
   letter-spacing: 8px;
-  padding-bottom: 60px;
   border: solid 3px #999999;
 
 }
@@ -31,12 +53,11 @@ header {
 img {
   width:500px;
   height: auto;
-  display:block;
+
 
 }
 
 .ideas {
-  display:block;
   width:800px;
   height;auto;
   border: solid 3px #999999;
@@ -45,7 +66,7 @@ img {
 }
 
 .challenge {
-  display:block;
+
   width:800px;
   height;auto;
   border: solid 3px #999999;
@@ -53,7 +74,7 @@ img {
 }
 
 .results {
-  display:block;
+
   width:800px;
   height;auto;
   border: solid 3px #999999;
@@ -97,7 +118,7 @@ footer {
   #sidebar {
     width: 33%;
     min-width: 300px;
-    height: auto;
+    height: 450px;
     font-family: 'Josefin Slab',serif;
     Font-size: 100%;
     color: #004370;
