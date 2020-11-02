@@ -1,0 +1,95 @@
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 120%
+  color: #999999
+}
+
+#content {
+  background-color: #D3C4BE;
+  border: solid 3px #999999;
+  height: 275vh;
+  width: auto;
+  padding: 25px;
+}
+
+header {
+  color: white;
+  font-family: Helvetica;
+  font-size: 350%;
+  letter-spacing: 8px;
+  padding-bottom: 60px;
+  border-bottom: solid 3px #999999
+}
+
+img {
+  width:600px;
+  height: auto;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#bigideas {
+  padding-top: 10px;
+  padding-bottom: 75px;
+  border-bottom: dotted 2px #999999;
+}
+
+#challenge {
+  padding-bottom: 75px;
+  border-bottom: dotted 2px #999999;
+}
+
+#results {
+  padding-bottom: 75px;
+  border-bottom: dotted 2px #999999;
+}
+
+h2 {
+  color: white;
+  font-size: 250%;
+  word-spacing: 2px;
+  letter-spacing: 5px;
+  display: inline-block;
+  width: 50%;
+}
+
+p {
+  font-family: 'Josefin Slab', serif;
+  line-height: 2em;
+  word-spacing: 5px;
+  font-size: 135%;
+  display: inline-block;
+}
+
+footer {
+  font-family: 'Josefin Slab', serif;
+}
+
+#links {
+  position: sticky;
+  top:0;
+  font-family: 'Josefin Slab',serif;
+}
+
+  #sidebar {
+    position: sticky;
+    left: 60%;
+    width: 33%;
+    min-width: 300px;
+    height: auto;
+    font-family: 'Josefin Slab',serif;
+    Font-size: 100%;
+    color: #004370;
+    background-color: white;
+    border: dotted 2px #004370;
+    padding: 10px;
+  }
+  
+.sidepic img{
+  width:200px;
+  height:auto;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
