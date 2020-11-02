@@ -53,7 +53,7 @@ header {
 img {
   width:500px;
   height: auto;
-
+  border: solid 3px #999999;
 
 }
 
@@ -75,7 +75,7 @@ img {
 
 .results {
 
-  width:800px;
+  width:500px;
   height;auto;
   border: solid 3px #999999;
 
@@ -118,14 +118,14 @@ footer {
   #sidebar {
     width: 33%;
     min-width: 300px;
-    height: 450px;
+    height: 475px;
     font-family: 'Josefin Slab',serif;
     Font-size: 100%;
     color: #004370;
     background-color: white;
     border: solid 3px #999999;
     float:left;
-    top:%;
+
   }
 
   .sidepic img{
