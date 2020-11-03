@@ -1,0 +1,120 @@
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 120%
+  color: #999999
+}
+
+#content {
+  background-color: #D3C4BE;
+  border: solid 3px #999999;
+  height: 350vh;
+  min-width: 1200px;
+  width:100%;
+  padding: 25px;
+}
+
+.flex1{
+  display:flex;
+
+}
+
+.flex2 {
+  display:flex;
+  flex-direction:row;
+  justify-content: space-between;
+
+
+}
+
+.flex3 {
+  display:flex;
+  justify-content:center;
+
+}
+
+header {
+  color: white;
+  font-family: Helvetica;
+  font-size: 350%;
+  letter-spacing: 8px;
+  padding-bottom: 60px;
+  border: solid 3px #999999;
+}
+
+img {
+  width:400px;
+  max-width:100%;
+  height: auto;
+  display:block;
+  border: solid 3px #999999;
+}
+
+.ideas {
+  padding-top: 10px;
+  padding-bottom: 75px;
+  border: solid 3px #999999;
+}
+
+.challenge {
+  padding-bottom: 75px;
+  border: solid 3px #999999;
+}
+
+.results {
+  padding-bottom: 75px;
+  border: solid 3px #999999;
+}
+
+h2 {
+  color: white;
+  font-size: 250%;
+  word-spacing: 2px;
+  letter-spacing: 5px;
+  display: inline-block;
+  width: 50%;
+}
+
+p {
+  font-family: 'Josefin Slab', serif;
+  line-height: 2em;
+  word-spacing: 5px;
+  font-size: 135%;
+  display: inline-block;
+}
+
+footer {
+  font-family: 'Josefin Slab', serif;
+  border: solid 3px #999999;
+}
+
+#links {
+  position: sticky;
+  top:0;
+  font-family: 'Josefin Slab',serif;
+  border: solid 3px #999999;
+}
+
+  #sidebar {
+    position: sticky;
+    min-width: 300px;
+    height: auto;
+    font-family: 'Josefin Slab',serif;
+    Font-size: 100%;
+    color: #004370;
+    background-color: white;
+    border: solid 3px #999999;
+    padding: 10px;
+  }
+
+.sidepic img{
+  width:200px;
+  max-width:100%;
+  height:auto;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (min-width:600px) { .flex1 , .flex2, .flex3, .results, #content {
+width:100%; }
+}
