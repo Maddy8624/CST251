@@ -1,0 +1,68 @@
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 120%
+  color: #999999
+}
+
+.container {
+  background-color: #D3C4BE;
+  border: solid 3px #999999;
+  height: 250vh;
+  min-width: 1200px;
+  width:100%;
+  padding: 25px;
+}
+
+
+
+header {
+  color: white;
+  font-family: Helvetica;
+  font-size: 350%;
+  letter-spacing: 8px;
+  padding-bottom: 60px;
+
+}
+
+img {
+  width:300px;
+  max-width:100%;
+  height: auto;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid 3px #999999;
+}
+
+.ideas {
+  padding-top: 10px;
+  padding-bottom: 75px;
+
+}
+
+.challenge {
+  padding-bottom: 75px;
+
+}
+
+.results {
+  padding-bottom: 75px;
+
+}
+
+h2 {
+  color: white;
+  font-size: 250%;
+  word-spacing: 2px;
+  letter-spacing: 5px;
+  display: inline-block;
+  width: 50%;
+}
+
+p {
+  font-family: 'Josefin Slab', serif;
+  line-height: 2em;
+  word-spacing: 5px;
+  font-size: 135%;
+  display: inline-block;
+}
